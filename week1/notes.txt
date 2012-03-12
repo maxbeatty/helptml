@@ -1,0 +1,89 @@
+Notes from Week 1 (3/8)
+
+<!doctype html>
+
+Congratulations, you're an HTML5 developer!
+
+You'll run into fewer problems if you start every HTML file with that simple line. It tells the browser you're adhering to the HTML5 specifications, and any legacy browser like Internet Explorer 6 will default to standards mode which helps you anyways.
+
+HTML is a markup language (hypertext to be specific). You surround your content with tags to give it meaning. We call this semantics.
+
+Most tags come in pairs. One opens, and one closes. For example, this is how you tell the browser you're writing a paragraph.
+
+<p>This is my paragraph</p>
+
+The opening tag is <p>. The closing tag is </p>. The content between them is interpretted as a paragraph.
+
+Before we get too far ahead structuring our content with tags, we should first structure the document with tags. There are two parts to every HTML document- the head and the body.
+
+The head lets us define things about the document like a title, meta data, stylesheets, and scripts. The body contains all of our content.
+
+<!doctype html>
+<html>
+  <head>
+    <title>Title of my HTML document</title>
+  </head>
+  <body>
+    <p>This is my paragraph</p>
+  </body>
+</html>
+
+There is a full HTML document with a head, body, and content (paragraph in this case).
+
+Important note on tags: child tags must be closed before their parent tags.
+
+In the example above, the <p> tags are closed before <body>. Closing tags out of order can cause the browser to render your content unexpectedly.
+
+How can I make sure my tags are closed in the proper order?
+
+Use the W3C Markup Validation Service! http://validator.w3.org/
+
+The only required meta data attribute for an HTML document is the character set. By using UTF-8, you almost always have all of your bases covered.
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Title of my HTML document</title>
+  </head>
+...
+</html>
+
+Headings
+
+Headings have six variations based on importance. The most important heading should use an <h1> tag. The least important headings should use an <h6> tag. Your content will typically determine how many headings you need. This newspaper headline might be marked up like so-- http://www.history.com/photos/pearl-harbor/photo13
+
+<h1>1500 Dead In Hawaii</h1>
+
+<h2>Congress Votes War</h2>
+
+<h3>Tally in Senate Is 82 to 0, In House 388 to 1, with Miss Rankin Sole Objector</h3>
+
+<h3>100 to 200 Soldiers Killed in Japanese Raid On Luzon in Philippines</h3>
+
+Headings inside of each of those stories might use <h4>, <h5>, or <h6> to break it up.
+
+Comments
+
+If you want to make a note to yourself in your HTML document without it showing up in the browser, use a comment. Comments have a different format than tags but share the concept of opening and closing.
+
+<!-- this is a comment -->
+
+'<!--' starts a comment and anything before '-->' will not be shown in the browser.
+
+Creating a Template
+
+While it's good to know why these basics elements of an HTML document are needed, it's just as good to reuse a basic starting point over and over. Let's define a starting point for next week:
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title><!-- fill me in later --></title>
+  </head>
+  <body>
+    <h1>Sample Heading</h1>
+
+    <p>Sample content.</p>
+  </body>
+</html>

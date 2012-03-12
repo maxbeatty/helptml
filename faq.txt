@@ -1,0 +1,5 @@
+Q: I'm using TextEdit and seeing '<!doctype ...' in my browser
+A: Go to the Format menu and make sure you're using Plain Text. You can also use the shorcut Shift+Cmd+T
+
+Q: How can I make sure my HTML is correct?
+A: User the W3C Markup Validation Service http://validator.w3.org/

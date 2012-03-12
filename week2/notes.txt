@@ -1,0 +1,12 @@
+Week 2 Topics (3/15)
+
+Previously
+	HTML Document Structure
+	Paragraphs
+	Headings
+	Comments
+
+This Week
+	Emphasis
+	Lists
+	Images
