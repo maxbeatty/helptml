@@ -7,6 +7,25 @@ Previously
 	Comments
 
 This Week
+
+	You'll notice some goofy looking code in wysiwyg.html like &lt;. This is an HTML entity that is rendered as a less than character but not interpreted as the opening of a tag. When you view the HTML in a browser, you should see something like '<i>'. If we used '<' instead, everything after that '<i>' would be italicized. You can see a full list of HTML Symbol Entities on W3Schools http://www.w3schools.com/tags/ref_symbols.asp
+
 	Emphasis
+
+		Choosing between i and em, and b and strong
+			Using i and b expects the containing content to be italicized and bolded, respectively. If you are going to emphasize the content differently or beyond italicizing or bolding, then em and strong become more appropriate. You (and future people looking at your code) will understand you're not strictly emphasizing with italics and bolds.
+
 	Lists
+		Unordered lists and ordered lists are almost identical. When you care about the order of items, use an ordered list. Lists can contain other lists of either type. For example, if you were planning out meals for the week you would want Monday through Sunday in order, breakfast, lunch, and dinner in order, but not care about the order of whatever you're eating and drinking at each meal. Lists are very commonly used for navigation portions of a page.
+
+		Definition lists are great for matching definitions with terms. Although they are mostly used to map one term to one definition, you can list as many definitions as you like just like a dictionary.
+
 	Images
+		The image tag is special in that you don't define any content between opening and closing tags, but with attributes on one tag. There are two main attributes 'src' and 'alt'. 
+
+		The 'src' attribute specifies where the image is. This can be a remote location with an absolute path usually beginning with 'http' or a relative path which would be a local file.
+
+		The 'alt' attribute should describe the picture for when the image is unavailable. This happens when the src is wrong, a browser is text only, or a screen reader is assisting a user.
+
+		The 'title' attribute can also be added to give a caption when someone hovers over your image. Typically, it's a good practice to keep it the same as the 'alt' attribute.
+
