@@ -1,0 +1,69 @@
+/* CSS = Cascading Style Sheets */
+
+/*
+
+  CSS styles content
+
+
+  We want to keep presentation separate from content
+
+  This is an example of a multi-line comment
+
+  Generic Pattern
+
+  selector {
+    property: value;
+  }
+
+*/
+
+/* you can select based on elements */
+body { font-size: 100%; /* 16px */}
+
+article {
+  font-size: 1.4em; /* 16px * 1.4 = 22.4 */
+}
+
+p {
+  /*
+  styles are in the form for property and value
+  property: value;
+  */
+  font-size: 1em; /* parent's em * 1em */
+}
+
+em {
+  font-size: 0.5em;
+  font-style: normal;
+  color: brown;
+  text-decoration: underline;
+}
+
+ul {
+  background-color: #aeaeae;
+}
+
+/*
+  element selectors can be combined to be more specific
+*/
+footer ul {
+  list-style-type: none;
+  font-size: 10px;
+}
+
+/*
+  classes are reusable and more specific than
+  a single an element selector
+*/
+.plain {
+  color: grey;
+}
+
+/*
+  you can nest them as well to be even more specific
+*/
+article .plain {
+  font-style: normal;
+}
+
+
