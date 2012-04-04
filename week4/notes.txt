@@ -13,4 +13,71 @@ Previously
 
 This Week
   More Links
+
+    Add the 'link' tag to your 'head' to reference external stylesheets.
+
+    <head>
+      ...
+      <link rel="stylesheet" href="your.css">
+      ...
+    </head>
+
+    Relative Path
+      Reference files in the same directory
+      Reference files in other locations by using '../' to navigate to other directories
+
+    Absolute Path
+      Reference files with a full path either ht
+
+
   Cascading Stylesheets
+
+    Comments
+      Start with '/*' and end with '*/'
+
+    Basic Statement
+
+      selector {
+        property: value;
+      }
+
+    Selector
+      Read from right to left. Can use HTML elements, classes, IDs, and any combination there of as selectors.
+
+    Property
+      What you want to change about your element. Common properties are color, border, height, width, and so on.
+
+    Value
+      Depending on the property, may be a color value, pixel value, or keyword value
+
+        color: blue;
+        background-color: #fff;
+        font-size: 14px;
+
+    Combining Selectors
+      You can combine selectors to be more specific about your styles.
+
+      p {
+        color: black;
+      }
+
+      footer p {
+        color: white;
+      }
+
+      The paragraphs in the footer (remember to read from right to left)
+
+    Classes
+      When you want to apply the same style multiple times but not every time for an element, use a class. First, add a class to your markup.
+
+      <button class="primary">Submit</button>
+      <a class="primary" href="#submit>Submit</a>
+
+      The selector for a class starts with a period.
+
+      .primary {
+        color: green;
+      }
+
+      Now all of the links and buttons will have a color green.
+

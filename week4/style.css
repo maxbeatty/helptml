@@ -2,44 +2,30 @@
 
 /*
 
-  CSS styles content
-
-
   We want to keep presentation separate from content
 
   This is an example of a multi-line comment
 
-  Generic Pattern
-
-  selector {
-    property: value;
-  }
-
 */
 
 /* you can select based on elements */
-body { font-size: 100%; /* 16px */}
 
 article {
-  font-size: 1.4em; /* 16px * 1.4 = 22.4 */
+  font-size: 16px;
 }
 
 p {
-  /*
-  styles are in the form for property and value
-  property: value;
-  */
-  font-size: 1em; /* parent's em * 1em */
+  font-size: 12px;
 }
 
 em {
-  font-size: 0.5em;
   font-style: normal;
   color: brown;
   text-decoration: underline;
 }
 
 ul {
+  /* hexideximal value instead of common word */
   background-color: #aeaeae;
 }
 
@@ -65,5 +51,3 @@ footer ul {
 article .plain {
   font-style: normal;
 }
-
-

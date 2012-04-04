@@ -2,4 +2,7 @@ Q: I'm using TextEdit and seeing '<!doctype ...' in my browser
 A: Go to the Format menu and make sure you're using Plain Text. You can also use the shorcut Shift+Cmd+T
 
 Q: How can I make sure my HTML is correct?
-A: User the W3C Markup Validation Service http://validator.w3.org/
+A: Use the W3C Markup Validation Service http://validator.w3.org/
+
+Q: How can I make sure my CSS is correct?
+A: Use the CSS Validation Service http://jigsaw.w3.org/css-validator/
