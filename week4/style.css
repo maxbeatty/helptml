@@ -14,7 +14,9 @@ article {
   font-size: 16px;
 }
 
-p {
+p,
+li,
+h6 {
   font-size: 12px;
 }
 
